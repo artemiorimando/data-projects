@@ -30,8 +30,6 @@ if (count_MIN_equal_NA == 1) {
 MIN[is.na(MIN)] <- -1
 MAX[is.na(MAX)] <- -1
 WOE <- create_table$WOE
-table  1) {
-WOE <- create_table$WOE
 categories <- create_table[,1]
 table <- cbind.data.frame(categories, WOE)
 return(table)
